@@ -1,0 +1,284 @@
+@media only screen and (min-width: 200px) and (max-width: 575px) {
+  /* header section */
+  header > .container {
+    width: 100%;
+    z-index: 99;
+  }
+  .container > .left {
+    flex-basis: 240px;
+    margin: auto;
+  }
+  .container > .left > img {
+    width: 100%;
+  }
+  .container > .right {
+    display: none;
+  }
+  /* section1 */
+  .section1 {
+    width: 100%;
+  }
+  .section1 > .container {
+    background-position: center;
+    margin: auto;
+  }
+  .section1 > .container {
+    flex-direction: column;
+    padding: 0;
+  }
+  .section1 > .container > .left {
+    flex-basis: 90%;
+    margin: 0px 5%;
+    padding: 0;
+  }
+  .section1 > .container > .left > h1 {
+    font-size: 22px;
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+  .section1 > .container > .left > h2 {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 5px 0;
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .section1 > .container > .left > h1 > span {
+    font-size: 28px;
+  }
+  .section1 > .container > .left > p {
+    margin: 5px 0 0 0;
+    font-size: 16px;
+    padding: 0;
+    text-align: center;
+  }
+  .section1 > .container > .left > .imgbox {
+    justify-content: center;
+  }
+  .section1 > .container > .left > .imgbox > img {
+    width: 25%;
+  }
+  .section1 > .container > .right {
+    flex-basis: 90%;
+    margin: 0px 5%;
+    padding: 0;
+    padding: 0 5%;
+    margin-bottom: 50px;
+  }
+  /* section 2 */
+
+  .section2 > .container > .title > h3 {
+    font-size: 18px;
+  }
+  .section2 > .container > .videos > .videobox {
+    width: 90%;
+    margin: auto;
+  }
+  .section2 > .container > .videos > .videobox > .solidbg {
+    width: 100%;
+    height: 200px;
+  }
+
+  /* section 3 */
+  .section3 {
+    margin: auto;
+  }
+  .section3 > .container > .title > h3 {
+    font-size: 14px;
+    padding-bottom: 25px;
+  }
+  .section3 > .container > .services > .srow {
+    flex-direction: column;
+  }
+  .section3 > .container > .services > .srow > .servicebox {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  /* section 4 */
+  .section4 > .container > .title > h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .section4 > .container > h3 {
+    font-size: 18px;
+    padding-top: 15px;
+    line-height: 40px;
+    padding-bottom: 30px;
+  }
+  .section4 > .container > .featurebox > .frow {
+    /* width: 100%; */
+    flex-wrap: wrap;
+    margin: 0;
+  }
+  .section4 > .container > .featurebox > .frow > .fbox {
+    flex-basis: 40%;
+    margin: 2%;
+    min-height: 127px;
+  }
+  /* section 5 */
+  .section5 > .container > .title > h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .section5 > .container > h3 {
+    font-size: 18px;
+    padding-top: 15px;
+    line-height: 40px;
+    padding-bottom: 30px;
+  }
+  .section5 > .container > .achievrow {
+    flex-wrap: wrap;
+  }
+  .section5 > .container > .achievrow > .achievbox {
+    flex-basis: 50%;
+    margin-bottom: 10px;
+  }
+  /* section 6 */
+  .section6 > .container > .title > h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .section6 > .container > h3 {
+    font-size: 18px;
+    padding-top: 15px;
+    line-height: 40px;
+    padding-bottom: 30px;
+  }
+  .section6 > .container > .slideshow {
+    width: 100%;
+  }
+  .section6 > .container > .slideshow {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 0;
+  }
+  .section6 > .container > .slideshow > .msgbox {
+    left: 0;
+    margin: auto;
+    padding-bottom: 0;
+  }
+  .section6 > .container > .slideshow > .msgbox > h3 {
+    text-align: justify;
+    width: 80%;
+    padding: 100px 0;
+    padding-bottom: 10px;
+    margin: auto;
+  }
+  .section6 > .container > .slideshow > .msgimgbox {
+    width: 60%;
+    top: 15px;
+    left: 20%;
+  }
+  /* sectin 7 */
+  .section7 {
+    margin-top: 300px;
+  }
+  .section7 > .container > .title > h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .section7 > .container > h3 {
+    font-size: 18px;
+    padding-top: 15px;
+    line-height: 40px;
+    padding-bottom: 30px;
+  }
+  .section7 > .container > .slideshow {
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 0;
+  }
+  /* section 8 */
+  .section8 > .container > .title > h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  .section8 > .container > .addressrow {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .section8 > .container > .addressrow > .addressbox {
+    flex-basis: 80%;
+    margin: 25px auto;
+  }
+  /* section 9 */
+  .section9 > .container > .title > h3 {
+    font-size: 16px;
+    padding-bottom: 15px;
+    flex-wrap: wrap;
+  }
+  .section9 > .container > .addrow {
+    width: 80%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  .section9 > .container > .addrow > .col {
+    width: 80%;
+    margin: 15px auto;
+    text-align: center;
+  }
+  /* footer */
+  footer {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin-bottom: 50px;
+  }
+
+  footer > .container > .footerrow1 > .social {
+    padding: 0;
+  }
+  footer > .container > .footerrow {
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  footer > .container > .footerrow > span {
+    width: 100%;
+  }
+  /* sticky contact */
+  .contact {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    visibility: visible;
+    position: fixed;
+    bottom: 0;
+  }
+  .contact > .calling {
+    flex-basis: 50%;
+    background-color: #3473d7;
+  }
+  .contact > .calling > h3 {
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+  }
+  .contact > .calling > h3 > i {
+    margin-right: 5px;
+  }
+  .contact > .whatsapp > h3 > i {
+    margin-right: 5px;
+  }
+  .contact > .whatsapp {
+    flex-basis: 50%;
+    background-color: #ffcf40;
+  }
+  .contact > .whatsapp > h3 {
+    font-size: 20px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+  }
+  /* Moving truck */
+  .main > .truck {
+    display: none;
+  }
+}
